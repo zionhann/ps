@@ -1,4 +1,4 @@
 EXE=*.exe
 
 clean:
-	rm -f $(EXE)
+	rm -f */$(EXE)
