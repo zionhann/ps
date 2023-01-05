@@ -16,6 +16,12 @@ using namespace std;
 const string POSITIVE = "YES";
 const string NEGATIVE = "NO";
 
+/**
+ * @brief check given string is symmetry. For example, "121" is symmetry; while "123" is not.
+ * 
+ * @param str
+ * @return true if both ends of str are identical; false otherwise
+ */
 bool IsSymmetry(string str) {
     if (str.length() < 2) {
         return true;
@@ -25,6 +31,12 @@ bool IsSymmetry(string str) {
         : false;
 }
 
+/**
+ * @brief reorder given num in reverse order.
+ * 
+ * @param num 
+ * @return num in reverse order: (123) => 321
+ */
 int Reverse(int num) {
     queue<int> q;
     string reversed = "";
