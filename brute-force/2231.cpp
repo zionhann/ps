@@ -1,5 +1,5 @@
 /**
- * @file 2331.cpp
+ * @file 2231.cpp
  * @date 2022-12-19
  * @author Sion Han
  * @from https://www.acmicpc.net/problem/2231
